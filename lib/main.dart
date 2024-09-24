@@ -1,4 +1,4 @@
-import 'package:feku_store/feku/views/home_page.dart';
+import 'package:feku_store/feku/my_home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
