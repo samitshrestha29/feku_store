@@ -1,4 +1,4 @@
-import 'package:feku_store/models/product_model.dart';
+import 'package:feku_store/feku/models/product_model.dart';
 import 'package:flutter/material.dart';
 
 class ProductDetailPage extends StatelessWidget {

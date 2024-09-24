@@ -1,6 +1,12 @@
 import 'dart:convert';
-import 'package:feku_store/models/product_model.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../models/product_model.dart';
 import 'package:http/http.dart' as http;
+
+// Define ProductService as a provider
+final productServiceProvider = Provider<ProductService>((ref) {
+  return ProductService();
+});
 
 class ProductService {
   Future<List<Product>> fetchProducts() async {

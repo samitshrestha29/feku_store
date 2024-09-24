@@ -1,6 +1,6 @@
-import 'package:feku_store/models/product_model.dart';
-import 'package:feku_store/views/product_detail_page.dart';
 import 'package:flutter/material.dart';
+import '../models/product_model.dart';
+import 'product_detail_page.dart';
 
 class ProductTile extends StatelessWidget {
   final Product productTile;
@@ -88,10 +88,10 @@ class ProductTile extends StatelessWidget {
                         ],
                       ),
                       Text(
-                        '${productTile.count} sold', // Example: "120 sold"
+                        '${productTile.count} sold',
                         style: const TextStyle(
                           fontSize: 16,
-                          color: Colors.grey, // Adjust color as per the UI
+                          color: Colors.grey,
                         ),
                       ),
                     ],
